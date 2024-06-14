@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Invitación</title>
+  </head>
+
+  <body>
+    <img src="./wen.png" alt="" id="wen">
+    <div
+      style="
+        position: absolute;
+        top: 0;
+        z-index: -2;
+        height: 100vh;
+        width: 100vw;
+        transform: rotate(180deg);
+        background-color: white;
+        background: radial-gradient(
+          60% 120% at 50% 50%,
+          hsla(0, 0%, 100%, 0) 0%,
+          rgb(252, 205, 238) 100%
+        );
+      "
+    ></div>
+    <header>
+        <p id="mensaje">
+            <span>Hola ¿Puedes ayudarme?</span>
+        </p>
+    </header>
+    <button id="start"> Continuar </button>
+    <script src="index.js"></script>
+  </body>
+</html>
